@@ -1,0 +1,15 @@
+# Requirements for IoT Device Security Scanner
+# This file lists the Python packages needed to run the application
+
+# Nmap library for network scanning
+python-nmap==0.7.1
+
+# MQTT client library for MQTT security checks
+paho-mqtt==1.6.1
+
+# Tkinter is built-in with Python, so no need to install separately
+# If using PyQt5 instead, uncomment the following line:
+# PyQt5==5.15.9
+
+# Additional dependencies if needed (e.g., for advanced features)
+# requests==2.31.0  # For potential API calls if extended
